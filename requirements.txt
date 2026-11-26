@@ -1,0 +1,2 @@
+# Optional: real semantic embeddings (otherwise an offline embedder is used)
+# sentence-transformers

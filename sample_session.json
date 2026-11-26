@@ -1,0 +1,9 @@
+[
+  {"type": "command", "text": "pytest tests/test_auth.py"},
+  {"type": "error", "text": "JWT decode fails with InvalidSignatureError when SECRET_KEY is read from .env"},
+  {"type": "fix", "text": "Load dotenv before importing config module so SECRET_KEY is set"},
+  {"type": "note", "text": "We decided to use SQLite instead of Postgres because the app is small"},
+  {"type": "file_change", "text": "auth/jwt.py"},
+  {"type": "file_change", "text": "config.py"},
+  {"type": "note", "text": "ok"}
+]
